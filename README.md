@@ -7,6 +7,21 @@
 ![Excel](https://img.shields.io/badge/Excel-Analysis-green?style=flat-square&logo=microsoft-excel)  
 
 ---
+## 📊 Visual Highlights  
+
+### 1️⃣ Sales Performance Over Time  
+![Sales Trend](images/sales_trend.png)  <!-- Add a png of sales performance over time from powerbi -->
+
+### 2️⃣ Top Product Categories  
+![Top Categories](images/top_categories.png)  <!-- Add a png of top product category from powerbi --> 
+
+### 3️⃣ Customer Segmentation (Pareto Analysis)  
+![Pareto Analysis](images/pareto.png)  <!-- Add a png of Customer Segmentation from powerbi -->
+
+### 4️⃣ Interactive Dashboard Demo  
+![Dashboard Demo](images/dashboard_demo.gif)  <!-- Add a png of Interactive Dashboard Demo from powerbi -->
+
+---
 
 ## 📖 Project Overview  
 This project analyzes one year of Brazilian e-commerce sales data from the **Olist dataset** to uncover key trends, customer behaviors, and product performance.  
