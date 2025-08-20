@@ -49,17 +49,19 @@ Olist, a Brazilian e-commerce plateform, wants to:
 ```plaintext
 Ecommerce-Sales-Analysis/
 ├── data/                  # All datasets
-│   ├── raw/               # Original data from Kaggle (untouched)
-│   ├── cleaned/           # Processed & cleaned datasets
-├── notebooks/             # Jupyter notebooks for Python EDA & analysis
-├── sql/                   # SQL scripts for data cleaning & aggregation
-├── dashboards/            # Power BI and Excel dashboards
-├── images/                # Screenshots for README & documentation
-├── insights.md            # Summary of findings & recommendations
-├── README.md               # Project documentation (this file)
+│   ├── raw/               # Original data from Kaggle
+│   ├── cleaned/           # Processed datasets (via Python scripts)
+├── scripts_python/        # VScode for cleaning + EDA
+├── sql/                   # SQL scripts (optional, validation + joins)
+├── dashboards/            # Power BI dashboards
+├── images/                # Screenshots (charts, dashboards)
+├── insights.md            # Key findings & recommendations
+├── README.md              # Project documentation
 └── requirements.txt       # Python dependencies
+
 ```
 ---
+
 
 
 
