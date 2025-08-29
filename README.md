@@ -79,7 +79,13 @@ Ecommerce-Sales-Analysis/
 ├── data/                  # All datasets
 │   ├── raw/               # Original data from Kaggle
 │   ├── cleaned/           # Processed datasets (via Python scripts)
-├── scripts_python/        # Python scripts for cleaning + EDA
+├── scripts_python/jupyter_notebook_scripts
+# Python scripts for cleaning + EDA
+  ├── data_import.py          # Import & save raw → processed CSVs
+  ├── data_cleaning.py        # Clean each dataset (duplicates, strip, casing)
+  ├── data_transformation.py  # Transform/join data for analysis 
+  ├── main.py                 # Run everything together
+        
 ├── sql/                   # SQL scripts (validation + joins)
 ├── dashboards/            # Power BI dashboards
 ├── images/                # Screenshots (charts, dashboards)
