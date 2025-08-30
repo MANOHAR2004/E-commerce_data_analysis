@@ -109,3 +109,50 @@ Ecommerce-Sales-Analysis/
 ├── insights.md                   # Insights (to be added later)
 ├── README.md                     # Documentation
 └── requirements.txt              # Python dependencies
+```
+## ⚙️ How to Run  
+
+Follow these steps to set up and run the project on your local machine:  
+
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/your-username/Ecommerce-Sales-Analysis.git
+cd Ecommerce-Sales-Analysis
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# Mac/Linux
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python scripts_python/data_cleaning.py
+python scripts_python/data_transformation.py
+jupyter notebook scripts_python/eda_analysis.ipynb
+dashboards/ecommerce_dashboard.pbix
+```
+#requirement files
+```
+# Core Python libraries
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+
+# Jupyter Notebook
+notebook
+jupyterlab
+
+# SQL connection (MySQL / PostgreSQL)
+mysql-connector-python
+SQLAlchemy
+psycopg2-binary
+
+# Data transformation / cleaning helpers
+openpyxl
+xlrd
+
+# Power BI is external (install separately)
+
